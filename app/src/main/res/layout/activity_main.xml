@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.abisayuti.quizinvestasi.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+        <EditText
+            android:id="@+id/etinout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:hint="Masukkan nilai investasi selama setahun" />
+
+        <Button
+            android:id="@+id/btnhitung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HITUNG" />
+
+        <TextView
+            android:id="@+id/txthasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="" />
+        <TextView
+            android:id="@+id/txthasil2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
